@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: trace-alarm-server
+    datasource:
+      url:
+      username:
+      password:
+      driver-class-name:
+      hikari:
+
+
+
+trace:
+  consumer:
+  topics:
+    topicTraceMinute: topicTraceMinute
+    topicTraceRetCodeMinute: topicTraceRetCodeMinute
+    topicTraceBizMinute: topicTraceBizMinute
+  groupId: groupTraceAlarm
