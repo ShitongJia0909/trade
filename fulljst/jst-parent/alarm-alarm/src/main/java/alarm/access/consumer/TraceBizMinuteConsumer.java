@@ -15,6 +15,7 @@ public class TraceBizMinuteConsumer extends AbstractKafkaConsumer{
     @Value("${trace.consumer.topics.topicTraceBizMinute:topicTraceBizMinute}")
     private String topicTraceMinute;
 
+
     @Override
     protected String getTopic() {
         logger.info("topicTraceBizMinute topic={}", topicTraceMinute);

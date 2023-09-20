@@ -4,7 +4,7 @@ import alarm.common.pubsub.IPublishMessage;
 
 import java.io.Serializable;
 
-public class AbstractMessage implements IPublishMessage, Serializable {
+public abstract class AbstractMessage implements IPublishMessage, Serializable {
     protected String rawDate;
     protected String timeAtt;
 
