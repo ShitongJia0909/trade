@@ -1,4 +1,4 @@
-package com.jst.trajst.dashboard.exceptions;
+package com.jst.trajst.dashboard.common.exceptions;
 
 import com.jst.common.exceptions.BaseRuntimeException;
 

@@ -6,7 +6,7 @@ import com.jst.jstdao.repository.TaskHistoryRepository;
 import com.jst.jstdao.repository.TaskInfoRepository;
 import com.jst.trajst.dashboard.enums.EnumBooleanResult;
 import com.jst.trajst.dashboard.enums.EnumTaskStatus;
-import com.jst.trajst.dashboard.exceptions.DbOperationException;
+import com.jst.trajst.dashboard.common.exceptions.DbOperationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;

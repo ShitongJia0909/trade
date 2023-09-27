@@ -1,0 +1,10 @@
+server:
+  port: 8899
+
+
+sms:
+  send: false
+  buzId: fullchain
+  templateId: fullchainDashBoard
+  signKey: 'rwrwvhoh12gicsb'
+  url: 'http://10.192.1.1:8000/sendSmsMessage'

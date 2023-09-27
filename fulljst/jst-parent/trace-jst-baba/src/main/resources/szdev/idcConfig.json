@@ -1,0 +1,39 @@
+{
+  "activeCity": "sz",
+  "activeIdc": "ST",
+  "idcList": [
+    {
+      "city": "sz",
+      "cityName": "苏州",
+      "name": "ST",
+      "role": "master",
+      "server_hosts": "http://127.0.0.1:8899",
+      "es_hosts": "10.192.12.12",
+      "zabbix_hosts": "https://10.192.12.13:8000/api_jsonrpc.php",
+      "zabbix_username": "query1",
+      "zabbix_unclr_pwd": "dKeywqfjfsHUDGuui="
+    },
+    {
+      "city": "sz",
+      "cityName": "苏州",
+      "name": "T4",
+      "role": "standby",
+      "server_hosts": "http://127.0.0.1:8899",
+      "es_hosts": "10.192.12.12",
+      "zabbix_hosts": "https://10.192.12.13:8000/api_jsonrpc.php",
+      "zabbix_username": "query1",
+      "zabbix_unclr_pwd": "dKeywqfjfsHUDGuui="
+    },
+    {
+      "city": "sz",
+      "cityName": "苏州",
+      "name": "T2",
+      "role": "standby",
+      "server_hosts": "http://127.0.0.1:8899",
+      "es_hosts": "10.192.12.12",
+      "zabbix_hosts": "https://10.192.12.13:8000/api_jsonrpc.php",
+      "zabbix_username": "query1",
+      "zabbix_unclr_pwd": "dKeywqfjfsHUDGuui="
+    }
+  ]
+}

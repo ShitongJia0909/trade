@@ -11,6 +11,10 @@ public class ErrorCode {
     public static final int PARA_ILLEGAL_ERROR = 30001;
     public static final int ILLEGAL_INPUT_PARAM = 30003;
 
+    // ZABBIX ERROR
+    public static final int ZABBIX_LOGIN_ERROR = 50004;
+    public static final int ZABBIX_OPERATION_ERROR = 50005;
+
 
 
 }
